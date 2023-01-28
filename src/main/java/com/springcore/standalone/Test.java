@@ -12,8 +12,7 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/standalone/config.xml");
 		Persons person = (Persons) context.getBean("person");
 		System.out.println(person);
-		
-		System.out.println(person.getFriend().getClass());
+//		System.out.println(person.getFriend().getClass());
 	}
 
 }
