@@ -8,17 +8,17 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!-- 	<bean class="com.springcore.lifecycle.Samosa" name="samosa1"
+	<bean class="com.springcore.lifecycle.Samosa" name="samosa1"
 		init-method="init" destroy-method="destroy" >
 		<property name="price" value="10" />
 	</bean>
 	
-	<bean class="com.springcore.lifecycle.Pepsi" name="pepsi1">
+	<!-- <bean class="com.springcore.lifecycle.Pepsi" name="pepsi1">
 		<property name="price" value="40" />
 	</bean> -->
 	
-	<bean class="com.springcore.lifecycle.Clg" name="clg">
+	<!-- <bean class="com.springcore.lifecycle.Clg" name="clg">
 		<property name="subject" value="Java"/>
-	</bean>
+	</bean> -->
 	
 </beans>

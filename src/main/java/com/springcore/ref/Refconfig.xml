@@ -15,9 +15,7 @@
 	<bean class="com.springcore.ref.A" name="aref">
 		<property name="i" value="600" />
 
-		<!-- <property name="ob">
-			<ref bean="bref" />
-		</property> -->
+		<!-- <property name="ob"> <ref bean="bref" /> </property> -->
 
 		<property name="ob" ref="bref" />
 	</bean>

@@ -1,7 +1,5 @@
 package com.springcore.ref;
 
-import javax.management.loading.PrivateClassLoader;
-
 public class A {
 	private int i;
 	private B ob;
