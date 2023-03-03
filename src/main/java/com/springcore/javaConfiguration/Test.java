@@ -10,10 +10,9 @@ public class Test {
 		ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
 		Student student = (Student) context.getBean("mj");
 		student.studentNames();
-		Thread.currentThread().setName("deepak");
 
 		DerivePerson derivePerson = (DerivePerson) context.getBean("madhur");
-		derivePerson.display();
+		derivePerson.getPerson().personNames();
 	}
 
 }

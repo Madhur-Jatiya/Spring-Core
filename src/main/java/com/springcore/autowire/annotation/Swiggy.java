@@ -12,17 +12,15 @@ public class Swiggy {
 		return address;
 	}
 
-	
 	public void setAddress(Address address) {
 		System.out.println("Using setter");
 		this.address = address;
 	}
 
-	
 	public Swiggy(Address address) {
 		super();
-		this.address = address;
 		System.out.println("Using Constructor");
+		this.address = address;
 	}
 
 	public Swiggy() {
@@ -34,6 +32,5 @@ public class Swiggy {
 	public String toString() {
 		return "Swiggy [address=" + address + "]";
 	}
-	
-	
+
 }
