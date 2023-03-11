@@ -9,4 +9,5 @@ Autowiring allows Spring to automatically inject dependencies into a bean, while
 Overall, these classes provide a comprehensive introduction to Spring Core and its key concepts, making it easy for developers to get started with Spring and leverage its powerful features in their own projects.
 
 
-![out](https://user-images.githubusercontent.com/70679523/224508748-05130cfa-ac2d-44b2-9f92-027671a43391.png)
+![image](https://user-images.githubusercontent.com/70679523/224508814-d1b4de5d-87b5-4b2c-88c5-58e0983bee70.png)
+
